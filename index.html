@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Trabajo en clase</title>
+
+<link rel="stylesheet" href="style/styles.css">
+</head>
+
+<body>
+
+<header class="encabezado">
+
+<h1>Daniel Felipe Montero Sáenz</h1>
+<p id="personal">
+Soy estudiante de <strong>ADSO</strong> en el
+<strong>SENA</strong>, tengo 21 años, vivo solo y mi
+pasión es aprender programación, enfocándome en
+diferentes lenguajes.
+</p>
+
+</header>
+
+
+<main class="contenedor">
+
+
+<section class="cuadro adivine">
+<h2>Adivina mi número favorito</h2>
+<p>Elige un número entre 0 y 100.</p>
+<label for="numero">Escribe tu número:</label>
+<input id="numero" type="number" min="0" max="100" >
+
+<p id="resultado" aria-live="polite"></p>
+</section>
+
+<section class="cuadro pasiones">
+<h2>Mis pasiones</h2>
+
+<label for="pasion">Selecciona una pasión:</label>
+
+<select id="pasion">
+<option value="">Selecciona una pasión</option>
+<option value="ajedrez">Jugar ajedrez</option>
+<option value="pinPon">Jugar ping-pong</option>
+<option value="series">Ver series</option>
+<p id="pa">Futurama</p>
+</select>
+
+<img
+id="imagenPasion"src=""alt="" style="display: none;">
+</section>
+
+
+<section class="cuadro interaccion">
+<h2>Interacción</h2>
+
+<p>Presiona el botón </p>
+
+<button id="click" type="button">
+Clic aquí
+</button>
+
+<p id="respuesta"></p>
+</section>
+
+</main>
+
+
+<footer class="pie">
+<p>Mucho gusto, profesor.</p>
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
+

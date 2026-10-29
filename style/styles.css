@@ -1,0 +1,80 @@
+
+h1, h2 {
+color: blue;
+text-align: center;
+}
+
+
+header {
+background-color: lightgray;
+padding: 20px;
+}
+
+
+#personal {
+color: #815007;
+text-align: center;
+}
+
+
+.contenedor {
+width: 90%;
+margin: 20px auto;
+}
+
+
+.cuadro {
+background-color: white;
+border: 1px solid gray;
+border-radius: 10px;
+padding: 20px;
+margin: 20px auto;
+max-width: 600px;
+text-align: center;
+}
+
+
+label {
+display: block;
+text-align: center;
+margin: 10px;
+}
+
+
+#adivinar {
+margin: 15px auto;
+}
+
+#pasion {
+display: block;
+margin: 10px auto;
+padding: 5px;
+}
+
+
+button {
+display: block;
+margin: 20px auto;
+padding: 8px 15px;
+background-color: blue;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+
+#imagenPasion {
+display: block;
+max-width: 100%;
+width: 400px;
+margin: 15px auto;
+}
+
+
+footer {
+background-color: lightgray;
+text-align: center;
+padding: 10px;
+}
+
